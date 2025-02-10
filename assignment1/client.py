@@ -1,3 +1,5 @@
+# This Flask application creates a simple POST-based microservice that listens on port 5000 \
+# and responds to requests sent to the /hello endpoint.
 import requests
 import sys
 

@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="2">
+  <diagram name="Page-1" id="TIt93ZfiGLC9II-rLzQa">
+    <mxGraphModel dx="934" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CWQEiRBexC8i40beE2Wa-5" value="Virtual box" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="30" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CWQEiRBexC8i40beE2Wa-7" value="&lt;div&gt;Gues OS(lubuntu)&lt;/div&gt;VM1 Server&lt;div&gt;Flask API&lt;/div&gt;&lt;div&gt;IP: 192.168.0.41&lt;/div&gt;&lt;div&gt;Port:5000&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="149" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CWQEiRBexC8i40beE2Wa-8" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Guest OS(lubunut)&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;VM2 Client&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IP: 192.168.0.42&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="50" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CWQEiRBexC8i40beE2Wa-12" value="Host OS (Win11)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CWQEiRBexC8i40beE2Wa-14" value="Phyical hardware(CPU, DISK, RAM, NIC etc)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CWQEiRBexC8i40beE2Wa-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.605;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CWQEiRBexC8i40beE2Wa-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="140" as="sourcePoint" />
+            <mxPoint x="489" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CWQEiRBexC8i40beE2Wa-21" value="RESPONSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CWQEiRBexC8i40beE2Wa-18">
+          <mxGeometry x="-0.0641" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CWQEiRBexC8i40beE2Wa-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="CWQEiRBexC8i40beE2Wa-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="80" as="sourcePoint" />
+            <mxPoint x="390" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CWQEiRBexC8i40beE2Wa-20" value="POST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CWQEiRBexC8i40beE2Wa-19">
+          <mxGeometry x="-0.0469" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-1" id="lYsUJKmgfA5MxRdVYPIr">
+    <mxGraphModel dx="794" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="FGYIMF3l_1lbSloqPpKZ-0" />
+        <mxCell id="FGYIMF3l_1lbSloqPpKZ-1" parent="FGYIMF3l_1lbSloqPpKZ-0" />
+        <mxCell id="FGYIMF3l_1lbSloqPpKZ-2" value="Virtual box" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FGYIMF3l_1lbSloqPpKZ-1">
+          <mxGeometry x="230" y="30" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FGYIMF3l_1lbSloqPpKZ-3" value="&lt;div&gt;Gues OS(lubuntu)&lt;/div&gt;VM1 Server&lt;div&gt;Flask API&lt;/div&gt;&lt;div&gt;IP: 192.168.0.41&lt;/div&gt;&lt;div&gt;Port:5000&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FGYIMF3l_1lbSloqPpKZ-1">
+          <mxGeometry x="250" y="50" width="149" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FGYIMF3l_1lbSloqPpKZ-4" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Guest OS(lubunut)&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;VM2 Client&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IP: 192.168.0.42&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FGYIMF3l_1lbSloqPpKZ-1">
+          <mxGeometry x="490" y="50" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FGYIMF3l_1lbSloqPpKZ-5" value="Host OS (Win11)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FGYIMF3l_1lbSloqPpKZ-1">
+          <mxGeometry x="230" y="190" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FGYIMF3l_1lbSloqPpKZ-6" value="Phyical hardware(CPU, DISK, RAM, NIC etc)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FGYIMF3l_1lbSloqPpKZ-1">
+          <mxGeometry x="230" y="250" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FGYIMF3l_1lbSloqPpKZ-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.605;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="FGYIMF3l_1lbSloqPpKZ-1" target="FGYIMF3l_1lbSloqPpKZ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="140" as="sourcePoint" />
+            <mxPoint x="489" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGYIMF3l_1lbSloqPpKZ-8" value="RESPONSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FGYIMF3l_1lbSloqPpKZ-7">
+          <mxGeometry x="-0.0641" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGYIMF3l_1lbSloqPpKZ-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="FGYIMF3l_1lbSloqPpKZ-1" target="FGYIMF3l_1lbSloqPpKZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="80" as="sourcePoint" />
+            <mxPoint x="390" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGYIMF3l_1lbSloqPpKZ-10" value="POST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FGYIMF3l_1lbSloqPpKZ-9">
+          <mxGeometry x="-0.0469" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
