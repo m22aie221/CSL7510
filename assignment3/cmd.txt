@@ -1,6 +1,6 @@
 sudo apt update
 sudo apt install htop -y
-bash Resource.sh 
+
 
 ssh-keygen -t ed25519 -C "m22aie221@iitj.ac.in"
 
@@ -41,4 +41,23 @@ gcloud auth activate-service-account --key-file=/home/rajesh/CSL7510/assignment2
 gcloud config set assignment2-451911
 
 
-stress --cpu 8 --timeout 150
+stress --cpu 6 --timeout 150
+
+tail -f /tmp/backend.log
+
+pgrep -fl BackendServer.py
+
+
+
+python3 BackendServer.py 
+
+
+python3 RemoteClient.py 192.168.0.39 8000
+
+
+sudo ufw allow 8000/tcp
+sudo ufw enable
+
+
+sudo ufw allow 9000/tcp
+sudo ufw enable
